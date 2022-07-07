@@ -1,0 +1,4 @@
+--include host
+--exclude no_daily
+--outputdir robot_result
+--loglevel TRACE

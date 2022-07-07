@@ -1,0 +1,58 @@
+{
+    "rtct": [
+        {
+            "int_cache_level": 3,
+            "int_base": 0,
+            "int_ways": 128,
+            "int_size": 262144,
+            "int_APIC_ID": [
+                0,
+                2
+            ],
+            "Type": "common.rtct.v1.rtct.PseudoSRAM"
+        },
+        {
+            "int_cache_level": 2,
+            "int_base": 0,
+            "int_ways": 2048,
+            "int_size": 131072,
+            "int_APIC_ID": [
+                0,
+                2
+            ],
+            "Type": "common.rtct.v1.rtct.PseudoSRAM"
+        },
+        {
+            "int_way_mask": [
+                [
+                    2047,
+                    2047,
+                    2047,
+                    2047,
+                    2047,
+                    2047,
+                    2047,
+                    2047,
+                    2047,
+                    2047,
+                    2047,
+                    2047,
+                    2047,
+                    2047,
+                    2047,
+                    2047
+                ]
+            ],
+            "Type": "common.rtct.v1.rtct.CAT_L2WayMasks"
+        },
+        {
+            "int_way_mask": [
+                112,
+                3,
+                12,
+                112
+            ],
+            "Type": "common.rtct.v1.rtct.CAT_L3WayMasks"
+        }
+    ]
+}

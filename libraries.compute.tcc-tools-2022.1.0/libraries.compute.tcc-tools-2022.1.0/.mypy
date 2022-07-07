@@ -1,0 +1,17 @@
+[mypy]
+; disable_error_code = attr-defined
+; ignore_missing_imports = True
+check_untyped_defs = True
+mypy_path = tests/mypy_stubs:tools
+no_incremental = True
+pretty = True
+python_version = 3.8
+show_absolute_path = True
+show_column_numbers = True
+show_error_codes = True
+show_error_context = True
+warn_redundant_casts = True
+warn_unused_ignores = True
+
+[mypy-*.tests.*]
+ignore_errors = True

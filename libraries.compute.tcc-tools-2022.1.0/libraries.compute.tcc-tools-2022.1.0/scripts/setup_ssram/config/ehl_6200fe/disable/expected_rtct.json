@@ -1,0 +1,38 @@
+{
+    "rtct": [
+        {
+            "Level": 2,
+            "Cache_ID": 0,
+            "WayMask": [
+                4095,
+                4095,
+                4095,
+                4095,
+                4095,
+                4095,
+                4095,
+                4095,
+                4095,
+                4095,
+                4095,
+                4095,
+                4095,
+                4095,
+                4095,
+                4095
+            ],
+            "Type": "common.rtct.v2.rtct.IA_WayMasks"
+        },
+        {
+            "Level": 3,
+            "Cache_ID": 0,
+            "WayMask": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "Type": "common.rtct.v2.rtct.IA_WayMasks"
+        }
+    ]
+}

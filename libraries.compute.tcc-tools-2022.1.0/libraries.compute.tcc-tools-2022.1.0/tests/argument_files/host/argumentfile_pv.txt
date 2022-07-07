@@ -1,0 +1,3 @@
+--include hostANDpv
+--outputdir robot_result
+--loglevel TRACE

@@ -1,0 +1,27 @@
+{
+    itt_domain_create_init_leak_ignore
+    Memcheck:Leak
+    ...
+    fun:__itt_domain_create_init_3_0
+}
+
+{
+    itt_string_handle_create_init_leak_ignore
+    Memcheck:Leak
+    ...
+    fun:__itt_string_handle_create_init_3_0
+}
+
+{
+    tcc_cache_init_base_leak_ignore
+    Memcheck:Leak
+    ...
+    fun:tcc_cache_init_base
+}
+
+{
+    tcc_measurement_get_leak_ignore
+    Memcheck:Leak
+    ...
+    fun:tcc_measurement_get
+}

@@ -1,0 +1,67 @@
+diff -urN a/Conf/target.txt b/Conf/target.txt
+--- a/Conf/target.txt	2020-03-04 13:28:45.760784913 +0300
++++ b/Conf/target.txt	2020-03-04 13:25:40.992622166 +0300
+@@ -17,7 +17,7 @@
+ #                                               build. This line is required if and only if the current
+ #                                               working directory does not contain one or more description
+ #                                               files.
+-ACTIVE_PLATFORM       = EmulatorPkg/EmulatorPkg.dsc
++ACTIVE_PLATFORM       = ShellPkg/ShellPkg.dsc
+ 
+ #  TARGET                List       Optional    Zero or more of the following: DEBUG, RELEASE, NOOPT
+ #                                               UserDefined; separated by a space character.
+@@ -25,7 +25,7 @@
+ #                                               valid targets specified in the platform description file 
+ #                                               will attempt to be built. The following line will build 
+ #                                               DEBUG platform target.
+-TARGET                = DEBUG
++TARGET                = RELEASE
+ 
+ #  TARGET_ARCH           List       Optional    What kind of architecture is the binary being target for.
+ #                                               One, or more, of the following, IA32, IPF, X64, EBC, ARM
+@@ -41,7 +41,7 @@
+ #                                               If not specified, then all valid architectures specified
+ #                                               in the platform file, for which tools are available, will be
+ #                                               built.
+-TARGET_ARCH           = IA32
++TARGET_ARCH           = X64
+ 
+ #  TOOL_DEFINITION_FILE  Filename  Optional   Specify the name of the filename to use for specifying
+ #                                             the tools to use for the build.  If not specified,
+@@ -51,7 +51,7 @@
+ #  TAGNAME               List      Optional   Specify the name(s) of the tools_def.txt TagName to use.
+ #                                             If not specified, all applicable TagName tools will be
+ #                                             used for the build.  The list uses space character separation.
+-TOOL_CHAIN_TAG        = VS2015x86
++TOOL_CHAIN_TAG        = GCC5
+ 
+ # MAX_CONCURRENT_THREAD_NUMBER  NUMBER  Optional  The number of concurrent threads. If not specified or set
+ #                                                 to zero, tool automatically detect number of processor
+diff -urN a/ShellPkg/ShellPkg.dsc b/ShellPkg/ShellPkg.dsc
+--- a/ShellPkg/ShellPkg.dsc	2019-11-25 17:14:18.000000000 +0300
++++ b/ShellPkg/ShellPkg.dsc	2020-03-04 13:28:01.169711003 +0300
+@@ -58,6 +58,12 @@
+   DxeServicesLib|MdePkg/Library/DxeServicesLib/DxeServicesLib.inf
+   ReportStatusCodeLib|MdePkg/Library/BaseReportStatusCodeLibNull/BaseReportStatusCodeLibNull.inf
+ 
++  #
++  # UEFI Detector tool requires these dependencies
++  #
++  PciCf8Lib|MdePkg/Library/BasePciCf8Lib/BasePciCf8Lib.inf
++  PciLib|MdePkg/Library/BasePciLibCf8/BasePciLibCf8.inf
++
+ [LibraryClasses.ARM,LibraryClasses.AARCH64]
+   #
+   # It is not possible to prevent the ARM compiler for generic intrinsic functions.
+@@ -132,6 +138,11 @@
+       NULL|ShellPkg/Library/UefiShellAcpiViewCommandLib/UefiShellAcpiViewCommandLib.inf
+   }
+ 
++  #
++  # Get UEFI Detector tool in the build
++  #
++  path_to_detector.inf
++
+   ShellPkg/DynamicCommand/TftpDynamicCommand/TftpDynamicCommand.inf {
+     <PcdsFixedAtBuild>
+       gEfiShellPkgTokenSpaceGuid.PcdShellLibAutoInitialize|FALSE

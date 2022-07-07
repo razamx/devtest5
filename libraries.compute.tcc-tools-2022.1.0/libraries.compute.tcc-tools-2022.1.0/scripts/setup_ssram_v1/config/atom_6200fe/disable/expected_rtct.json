@@ -1,0 +1,45 @@
+{
+    "rtct": [
+        {
+            "int_way_mask": [
+                1, 
+                1, 
+                1, 
+                1
+            ],
+            "Type": "common.rtct.v1.rtct.GT_L3WayMasks"
+        },
+        {
+            "int_way_mask": [
+                [
+                    4095, 
+                    4095, 
+                    4095, 
+                    4095, 
+                    4095, 
+                    4095, 
+                    4095, 
+                    4095, 
+                    4095, 
+                    4095, 
+                    4095, 
+                    4095, 
+                    4095, 
+                    4095, 
+                    4095, 
+                    4095
+                ]
+            ],
+            "Type": "common.rtct.v1.rtct.CAT_L2WayMasks"
+        },
+        {
+            "int_way_mask": [
+                255, 
+                255, 
+                255, 
+                255
+            ],
+            "Type": "common.rtct.v1.rtct.CAT_L3WayMasks"
+        }
+    ]
+}

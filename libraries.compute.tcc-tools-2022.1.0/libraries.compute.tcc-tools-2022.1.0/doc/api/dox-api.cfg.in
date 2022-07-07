@@ -1,0 +1,79 @@
+# Doxyfile
+
+# This file describes the settings to be used by the documentation system
+# doxygen (www.doxygen.org) for a project.
+
+#---------------------------------------------------------------------------
+# Project related configuration options
+#---------------------------------------------------------------------------
+PROJECT_NAME            = "Intel® Time Coordinated Computing Tools (Intel® TCC Tools)"
+PROJECT_LOGO            = @CMAKE_CURRENT_SOURCE_DIR@/api/intel-logo.png
+PROJECT_NUMBER          = "Gold @MAJOR_VERSION@.@MINOR_VERSION@.@PATCH_VERSION@"
+OUTPUT_DIRECTORY        = @CMAKE_CURRENT_BINARY_DIR@
+OPTIMIZE_OUTPUT_FOR_C   = YES
+DOXYFILE_ENCODING       = UTF-8
+SEARCHENGINE            = YES
+SORT_MEMBER_DOCS        = NO
+FULL_PATH_NAMES         = YES
+LAYOUT_FILE             = @CMAKE_CURRENT_SOURCE_DIR@/api/DoxygenLayout.xml
+
+#---------------------------------------------------------------------------
+# Build related configuration options
+#---------------------------------------------------------------------------
+ENABLE_PREPROCESSING    = YES
+MACRO_EXPANSION         = YES
+EXPAND_ONLY_PREDEF      = YES
+EXTRACT_STATIC          = YES
+DISTRIBUTE_GROUP_DOC    = YES
+HIDE_UNDOC_MEMBERS      = YES
+HIDE_UNDOC_CLASSES      = YES
+HIDE_SCOPE_NAMES        = YES
+GENERATE_DEPRECATEDLIST = NO
+VERBATIM_HEADERS        = NO
+ALPHABETICAL_INDEX      = NO
+
+#---------------------------------------------------------------------------
+# Configuration options related to the input files
+#---------------------------------------------------------------------------
+INPUT                   = @CMAKE_CURRENT_SOURCE_DIR@/api/api-index.md \
+                          @CMAKE_CURRENT_SOURCE_DIR@/../include/tcc \
+                          @CMAKE_CURRENT_SOURCE_DIR@/../samples/samples_api.md \
+                          @CMAKE_CURRENT_SOURCE_DIR@/../samples/samples.dox \
+                          @CMAKE_CURRENT_SOURCE_DIR@/../samples/tcc_rt_communication_demo/src/data_mgr \
+                          @CMAKE_CURRENT_SOURCE_DIR@/../samples/tcc_rt_communication_demo/src/opcua_pubsub_server \
+                          @CMAKE_CURRENT_SOURCE_DIR@/api/legal_information.md
+INPUT_ENCODING          = UTF-8
+FILE_PATTERNS           = *.h
+
+#---------------------------------------------------------------------------
+# Configuration options related to source browsing
+#---------------------------------------------------------------------------
+SOURCE_BROWSER          = YES
+
+#---------------------------------------------------------------------------
+# Configuration options related to the HTML output
+#---------------------------------------------------------------------------
+HTML_TIMESTAMP          = NO
+HTML_DYNAMIC_SECTIONS   = YES
+HTML_HEADER             = header.html
+GENERATE_TREEVIEW       = YES
+
+#---------------------------------------------------------------------------
+# Configuration options related to the other outputs
+#---------------------------------------------------------------------------
+GENERATE_XML            = NO
+GENERATE_LATEX          = YES
+USE_PDFLATEX            = YES
+PDF_HYPERLINKS          = YES
+
+#---------------------------------------------------------------------------
+# Other
+#---------------------------------------------------------------------------
+PREDEFINED              =__attribute__((always_inline))=
+STRIP_FROM_PATH         = @CMAKE_CURRENT_SOURCE_DIR@/../include
+
+#---------------------------------------------------------------------------
+# Relating samples 
+#---------------------------------------------------------------------------
+EXAMPLE_PATH            = @CMAKE_CURRENT_SOURCE_DIR@/../samples
+EXAMPLE_PATTERN         = *.c

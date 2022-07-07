@@ -1,0 +1,107 @@
+{
+    "rtct": [
+        {
+            "Level": 3,
+            "Cache_ID": 0,
+            "WayMask": 2048,
+            "Type": "common.rtct.v2.rtct.SSRAM_WayMask"
+        },
+        {
+            "Level": 3,
+            "Cache_ID": 0,
+            "Base": 1074266112,
+            "Size": 1048576,
+            "Shared": 0,
+            "Type": "common.rtct.v2.rtct.SoftwareSRAM"
+        },
+
+        {
+            "Level": 3,
+            "Cache_ID": 0,
+            "WayMask": [
+                4088,
+                4088,
+                4088,
+                4088
+            ],
+            "Type": "common.rtct.v2.rtct.GT_WayMasks"
+        },
+        {
+            "Level": 3,
+            "Cache_ID": 0,
+            "WayMask": 1,
+            "Type": "common.rtct.v2.rtct.WRC_WayMasks"
+        },
+        {
+            "Level": 2,
+            "Cache_ID": 0,
+            "WayMask": [
+                1048575,
+                1048575,
+                1048575,
+                1048575,
+                1048575,
+                1048575,
+                1048575,
+                1048575
+            ],
+            "Type": "common.rtct.v2.rtct.IA_WayMasks"
+        },
+        {
+            "Level": 2,
+            "Cache_ID": 1,
+            "WayMask": [
+                1048575,
+                1048575,
+                1048575,
+                1048575,
+                1048575,
+                1048575,
+                1048575,
+                1048575
+            ],
+            "Type": "common.rtct.v2.rtct.IA_WayMasks"
+        },
+        {
+            "Level": 2,
+            "Cache_ID": 2,
+            "WayMask": [
+                1048575,
+                1048575,
+                1048575,
+                1048575,
+                1048575,
+                1048575,
+                1048575,
+                1048575
+            ],
+            "Type": "common.rtct.v2.rtct.IA_WayMasks"
+        },
+        {
+            "Level": 2,
+            "Cache_ID": 3,
+            "WayMask": [
+                1048575,
+                1048575,
+                1048575,
+                1048575,
+                1048575,
+                1048575,
+                1048575,
+                1048575
+            ],
+            "Type": "common.rtct.v2.rtct.IA_WayMasks"
+        },
+        {
+            "Level": 3,
+            "Cache_ID": 0,
+            "WayMask": [
+                4088,
+                6,
+                4088,
+                4088
+            ],
+            "Type": "common.rtct.v2.rtct.IA_WayMasks"
+        }
+    ]
+}

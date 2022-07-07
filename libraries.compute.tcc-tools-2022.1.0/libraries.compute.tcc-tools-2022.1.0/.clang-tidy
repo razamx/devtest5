@@ -1,0 +1,22 @@
+---
+# Checks with '-' in front are disabled.
+# First, disable all checks than enable needed than disable useless
+Checks: >
+    -*,
+    bugprone-*,
+    cert-*,
+    misc-*,
+    performance-*,
+    readability-*,
+    -readability-avoid-const-params-in-decls,
+    -cert-err34-c
+
+WarningsAsErrors: >
+    readability-braces-around-statements,
+    readability-inconsistent-declaration-parameter-name,
+    bugprone-narrowing-conversions,
+
+CheckOptions:
+  - key:             readability-inconsistent-declaration-parameter-name.Strict
+    value:           '1'
+...

@@ -1,0 +1,162 @@
+{
+    "rtct": [
+        {
+            "Level": 3,
+            "Cache_ID": 0,
+            "WayMask": [
+                496,
+                496,
+                496,
+                496
+            ],
+            "Type": "common.rtct.v2.rtct.GT_WayMasks"
+        },
+        {
+            "Level": 2,
+            "Cache_ID": 0,
+            "WayMask": [
+                255,
+                255,
+                255,
+                255,
+                255,
+                255,
+                255,
+                255
+            ],
+            "Type": "common.rtct.v2.rtct.IA_WayMasks"
+        },
+        {
+            "Level": 2,
+            "Cache_ID": 1,
+            "WayMask": [
+                1023,
+                1023,
+                1023,
+                1023,
+                1023,
+                1023,
+                1023,
+                1023
+            ],
+            "Type": "common.rtct.v2.rtct.IA_WayMasks"
+        },
+        {
+            "Level": 2,
+            "Cache_ID": 2,
+            "WayMask": [
+                1023,
+                1023,
+                1023,
+                1023,
+                1023,
+                1023,
+                1023,
+                1023
+            ],
+            "Type": "common.rtct.v2.rtct.IA_WayMasks"
+        },
+        {
+            "Level": 2,
+            "Cache_ID": 3,
+            "WayMask": [
+                1023,
+                1023,
+                1023,
+                1023,
+                1023,
+                1023,
+                1023,
+                1023
+            ],
+            "Type": "common.rtct.v2.rtct.IA_WayMasks"
+        },
+        {
+            "Level": 2,
+            "Cache_ID": 4,
+            "WayMask": [
+                1023,
+                1023,
+                1023,
+                1023,
+                1023,
+                1023,
+                1023,
+                1023
+            ],
+            "Type": "common.rtct.v2.rtct.IA_WayMasks"
+        },
+        {
+            "Level": 2,
+            "Cache_ID": 5,
+            "WayMask": [
+                1023,
+                1023,
+                1023,
+                1023,
+                1023,
+                1023,
+                1023,
+                1023
+            ],
+            "Type": "common.rtct.v2.rtct.IA_WayMasks"
+        },
+        {
+            "Level": 3,
+            "Cache_ID": 0,
+            "WayMask": 3584,
+            "Type": "common.rtct.v2.rtct.SSRAM_WayMask"
+        },
+        {
+            "Level": 3,
+            "Cache_ID": 0,
+            "Base": 1356857344,
+            "Size": 4194624,
+            "Shared": 0,
+            "Type": "common.rtct.v2.rtct.SoftwareSRAM"
+        },
+        {
+            "Level": 3,
+            "Cache_ID": 0,
+            "WayMask": 2,
+            "Type": "common.rtct.v2.rtct.WRC_WayMasks"
+        },
+        {
+            "Level": 2,
+            "Cache_ID": 0,
+            "WayMask": 768,
+            "Type": "common.rtct.v2.rtct.SSRAM_WayMask"
+        },
+        {
+            "Level": 2,
+            "Cache_ID": 0,
+            "Base": 1356857344,
+            "Size": 262144,
+            "Shared": 0,
+            "Type": "common.rtct.v2.rtct.SoftwareSRAM"
+        },
+        {
+            "Level": 3,
+            "Cache_ID": 0,
+            "WayMask": [
+                496,
+                3,
+                12,
+                496,
+                496,
+                496,
+                496,
+                496,
+                496,
+                496,
+                496,
+                496,
+                496,
+                496,
+                496,
+                496
+            ],
+            "Type": "common.rtct.v2.rtct.IA_WayMasks"
+        }
+    ]
+}

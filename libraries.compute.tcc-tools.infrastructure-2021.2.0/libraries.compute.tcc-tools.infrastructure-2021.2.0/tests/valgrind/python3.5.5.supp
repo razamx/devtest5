@@ -1,0 +1,162 @@
+#Suppressions for python3.5.5 (default memory errors) 
+
+{
+   ctypes_error
+   Memcheck:Leak
+   ...
+   fun:*alloc
+   fun:_ctypes_alloc_format_string
+}
+
+{
+   crypto_alloc
+   Memcheck:Leak
+   ...
+   fun:*alloc
+   fun:CRYPTO_*alloc
+}
+
+{
+   libpython_leak
+   Memcheck:Leak
+   ...
+   fun:*alloc
+   obj:/usr/lib/libpython3.5m.so*
+}
+
+{
+   conditional_jump_or_move_depends_on_uninitialised_value
+   Memcheck:Cond
+   fun:__wcsnlen_sse4_1
+   fun:wcsrtombs
+   fun:wcstombs
+   fun:Py_EncodeLocale
+   fun:_Py_wreadlink
+   obj:/usr/lib/libpython3.5m.so*
+   fun:Py_GetProgramFullPath
+   fun:_PySys_Init
+   fun:_Py_InitializeEx_Private
+   fun:Py_Main
+   fun:main
+}
+
+{
+   uninitialised_value_was_created_by_a_heap_allocation
+   Memcheck:Cond
+   obj:/usr/lib/libpython3.5m.so*
+}
+
+{
+   use_of_uninitialised_value
+   Memcheck:Value8
+   obj:/usr/lib/libpython3.5m.so*
+}
+
+{
+   invalid_read
+   Memcheck:Addr4
+   obj:/usr/lib/libpython3.5m.so*
+}
+
+{
+   depends_on_uninitialised_value
+   Memcheck:Cond
+   fun:read_history_range
+   obj:/usr/lib/python3.5*
+}
+
+{
+   invalid_read
+   Memcheck:Addr1
+   fun:read_history_range
+   obj:/usr/lib/python3.5*
+}
+
+{
+   dlopen_leak
+   Memcheck:Leak
+   ...
+   fun:*alloc
+   ...
+   fun:dlopen@@GLIBC*
+}
+
+{
+   libpython_leak
+   Memcheck:Leak
+   ...
+   fun:*alloc
+   fun:realloc
+   obj:/usr/lib/libpython3.5m.so*
+}
+
+{
+   libtinfo_leak
+   Memcheck:Leak
+   ...
+   fun:*alloc
+   fun:_nc_read_termtype
+   obj:/lib/libtinfo.so*
+}
+
+{
+   readline_cpython_leak
+   Memcheck:Leak
+   ...
+   fun:*alloc
+   ...
+   fun:rl_initialize
+   obj:/usr/lib/python3.5/lib-dynload/readline.cpython*
+}
+
+{
+   readline_cpython_leak
+   Memcheck:Leak
+   ...
+   fun:malloc
+   fun:strdup
+   obj:/usr/lib/python3.5/lib-dynload/readline.cpython*
+}
+
+{
+   cpython_leak
+   Memcheck:Leak
+   ...
+   fun:*alloc
+   obj:/usr/lib/python3.5/lib-dynload/_struct.cpython*
+}
+
+{
+   ctypes_leak
+   Memcheck:Leak
+   ...
+   fun:*alloc
+   fun:PyCStructUnionType_update_stgdict
+   fun:PyObject_SetAttr
+   fun:PyObject_SetAttrString
+   obj:/usr/lib/python3.5/lib-dynload/_ctypes.cpython*
+}
+
+{
+   ctypes_leak
+   Memcheck:Leak
+   ...
+   fun:*alloc
+   obj:/usr/lib/python3.5/lib-dynload/_ctypes.cpython*
+}
+
+{
+   ctypes_leak
+   Memcheck:Leak
+   ...
+   fun:*alloc
+   fun:PyCStructUnionType_update_stgdict
+}
+
+{
+   libpython_leak
+   Memcheck:Leak
+   ...
+   fun:malloc
+   fun:main
+}

@@ -1,0 +1,56 @@
+########################################
+##### tcc_buffer_allocation_sample #####
+########################################
+
+#[TP] Reachable leak in ittnotify static (main.c:106) (reachable_leak_in_ittnotify)
+{
+   reachable_leak_in_ittnotify
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:strdup
+   fun:__itt_domain_create_init_3_0
+}
+
+#[TP] Leak in dlopen (tcc_measurement_static.c:60) (dlopen_memory_leak)
+{
+   dlopen_memory_leak
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:strdup
+   fun:_dl_load_cache_lookup
+   fun:_dl_map_object
+   fun:dl_open_worker
+   fun:_dl_catch_exception
+   fun:_dl_open
+   fun:dlopen_doit
+   fun:_dl_catch_exception
+   fun:_dl_catch_error
+   fun:_dlerror_run
+   fun:dlopen@@GLIBC_2.2.5
+}
+
+##############################################
+###### syntetic_multiple_measurers_test ######
+##############################################
+
+#[TP] False detection __get_cpuid (tcc_measurement.c:38) (false_detection__get_cpuid)
+{
+   false_detection__get_cpuid
+   Memcheck:Cond
+   fun:__get_cpuid
+   fun:myCPUID
+}
+
+##########################
+###### tcc_detector ######
+##########################
+
+#[TP] False detection __get_cpuid_count (mycpuid.c:27) (false_detection__get_cpuid_count)
+{
+   false_detection__get_cpuid_count
+   Memcheck:Cond
+   fun:__get_cpuid_count
+   fun:myCPUIDEx
+}

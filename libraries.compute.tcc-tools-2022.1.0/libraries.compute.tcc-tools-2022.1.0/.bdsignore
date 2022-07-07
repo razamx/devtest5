@@ -1,0 +1,2 @@
+.bdsignore
+tools/keys/sbl/*

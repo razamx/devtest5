@@ -1,0 +1,532 @@
+#intel confidential
+sectiondef:
+    people: [people_list]
+section: people_list
+guidance: People names and aliases. Should not be part of product!
+hits:
+- '@intel.com'
+- sukerkar
+- khandelwal
+- mdmuztob
+- crowe:
+    accept_any_case:
+    - vcrowen
+    - macrowe
+    - microwe
+- abslota
+- smirnov
+- zinchenko
+- mirandal
+- mxma:
+    exact: 1
+- pslaskey
+- arellano
+- enovosel
+- ansukerk
+- topinskaia
+- dzinchen
+- boren:
+    accept_any_case:
+    - arborenclosed
+    - neighborenormous
+    - arborensure
+    - neighborencourage
+    - neighborencryption
+    - arborenb
+    - arboreng
+    - arborent
+    - neighborenvironment
+    - arborenvisioned
+    - arborenquiry
+    - laborenclosed
+    - neighborenquiries
+    - arborencyclopedia
+    - neighborencyclopedia
+    - comborent
+    - arborenabling
+    - comboreno
+    - arborenrolled
+    - arborenough
+    - turborender
+    - neighborenlarge
+    - laborenquiries
+    - arborenemy
+    - turborenaissance
+    - laborenabling
+    - mamborenaissance
+    - neighborenvisioned
+    - arborensuring
+    - neighborensemble
+    - mamborender
+    - laborenlarge
+    - laborenvironment
+    - neighborencounter
+    - neighborenough
+    - laborenquiry
+    - arborenergy
+    - mamborenew
+    - arborenrollment
+    - neighborenabling
+    - arborend
+    - laborenclosure
+    - neighborensuring
+    - laborenormous
+    - arborencoding
+    - neighborenemies
+    - neighborencoder
+    - arborensemble
+    - neighborenvelope
+    - neighborenquiry
+    - neighborenhance
+    - comborenaissance
+    - neighborenergy
+    - laborencounter
+    - neighborenrolled
+    - laborenemy
+    - laborensuring
+    - laborensemble
+    - arborencounter
+    - neighborenzyme
+    - arborenhancing
+    - turborenew
+    - arborenlarge
+    - turborename
+    - laborenvelope
+    - laborencoder
+    - comborender
+    - arborenhance
+    - turborent
+    - turboreno
+    - laborenough
+    - neighborenclosed
+    - neighborenjoy
+    - arborencourage
+    - laborenrollment
+    - arborenquiries
+    - laborenrolled
+    - neighborenhancing
+    - laborenzyme
+    - arborenforcement
+    - laborensure
+    - comborenew
+    - laborenforcement
+    - laborenergy
+    - arborenemies
+    - arborenzyme
+    - laborenemies
+    - laborencouraging
+    - laborencourage
+    - mamborename
+    - neighborensure
+    - laborencyclopedia
+    - arborencoder
+    - neighborenum
+    - neighborenrollment
+    - arborenum
+    - laborenum
+    - neighborenable
+    - arborenclosure
+    - neighborent
+    - comborename
+    - neighboreng
+    - neighborend
+    - neighborenclosure
+    - laborenjoy
+    - arborenable
+    - neighborenb
+    - arborenjoy
+    - laborent
+    - laborenable
+    - neighborenforcement
+    - laborend
+    - laboreng
+    - laborencryption
+    - laborenb
+    - arborencouraging
+    - neighborenemy
+    - laborenhance
+    - neighborencoding
+    - laborenhancing
+    - arborenormous
+    - neighborencouraging
+    - laborencoding
+    - arborenvironment
+    - mamborent
+    - laborenvisioned
+    - arborencryption
+    - mamboreno
+    - arborenvelope
+- msadow
+- itopinsk
+- lora:
+    accept_any_case:
+    - floral
+    - exploration
+    - colorado
+    exact: 1
+- amyreye
+- zybin:
+    accept_any_case:
+    - lazybin
+    - fuzzybin
+    - crazybin
+- swenton
+- jacolema
+- vzybin
+- clora:
+    accept_any_case:
+    - incloral
+    - incloracle
+    - inclorange
+- sadow:
+    accept_any_case:
+    - sadowen
+    - nasadow
+    - tulsadow
+    - sadown
+    - usadow
+    - rosadow
+    - mesadow
+    - melissadow
+    - isadow
+    - casadow
+    - rsadow
+- cherepanova
+- jdcrowe
+- rswenton
+- pcarella
+- reyes:
+    accept_any_case:
+    - furnitureyes
+    - surreyescape
+    - startereyes
+    - charactereyes
+    - cartereyes
+    - dereyes
+    - surreyessex
+    - chandlereyes
+    - identifiereyes
+    - bizarreyes
+    - entereyes
+    - miniatureyes
+    - fingereyes
+    - optimizereyes
+    - ministereyes
+    - clustereyes
+    - disastereyes
+    - eastereyes
+    - retailereyes
+    - containereyes
+    - worcestereyes
+    - stickereyes
+    - ventureyes
+    - bloggereyes
+    - explorereyes
+    - cornereyes
+    - cureyes
+    - scannereyes
+    - structureyes
+    - vereyes
+    - oureyes
+    - rubbereyes
+    - jennifereyes
+    - intereyes
+    - jeffreyessential
+    - captureyes
+    - sulphureyes
+    - refereyes
+    - ownereyes
+    - creatureyes
+    - hereyes
+    - hackereyes
+    - jeffreyescape
+    - acereyes
+    - burnereyes
+    - meyereyes
+    - eureyes
+    - soccereyes
+    - tiereyes
+    - trailereyes
+    - warnereyes
+    - killereyes
+    - buffereyes
+    - krugereyes
+    - speakereyes
+    - assemblereyes
+    - designereyes
+    - twistereyes
+    - passengereyes
+    - mastereyes
+    - altereyes
+    - volunteereyes
+    - angereyes
+    - offereyes
+    - greyespecially
+    - runnereyes
+    - mergereyes
+    - amplifiereyes
+    - messengereyes
+    - ottereyes
+    - arthureyes
+    - strongereyes
+    - easiereyes
+    - quartereyes
+    - sureyes
+    - prisonereyes
+    - lettereyes
+    - millereyes
+    - sistereyes
+    - literatureyes
+    - surreyessence
+    - partnereyes
+    - profilereyes
+    - fureyes
+    - writereyes
+    - seekereyes
+    - ambereyes
+    - rogereyes
+    - lectureyes
+    - lattereyes
+    - usreyes
+    - walkereyes
+    - vcreyes
+    - octobereyes
+    - dryereyes
+    - theireyes
+    - reservoireyes
+    - voyuereyes
+    - premiereyes
+    - fastereyes
+    - lawyereyes
+    - verifiereyes
+    - testereyes
+    - mannereyes
+    - renderereyes
+    - pureyes
+    - textureyes
+    - greyessence
+    - surreyessay
+    - surreyessential
+    - sniffereyes
+    - parkereyes
+    - spencereyes
+    - sheltereyes
+    - petereyes
+    - failureyes
+    - polyestereyes
+    - fostereyes
+    - visualizereyes
+    - layereyes
+    - computereyes
+    - greatereyes
+    - conquereyes
+    - toddlereyes
+    - plannereyes
+    - cultureyes
+    - bakereyes
+    - areyes
+    - buttereyes
+    - wagnereyes
+    - mixtureyes
+    - tylereyes
+    - bettereyes
+    - chryslereyes
+    - vampireyes
+    - direyes
+    - engineereyes
+    - westminstereyes
+    - chaptereyes
+    - moistureyes
+    - theatreyes
+    - lancastereyes
+    - prayereyes
+    - pierreyes
+    - sheereyes
+    - brochureyes
+    - youngereyes
+    - largereyes
+    - heatereyes
+    - jeffreyespecially
+    - cratereyes
+    - treasurereyes
+    - webstereyes
+    - turnereyes
+    - sireyes
+    - procedureyes
+    - surreyescort
+    - cybereyes
+    - sabreyes
+    - installereyes
+    - fibereyes
+    - barriereyes
+    - tigereyes
+    - samplereyes
+    - officereyes
+    - jeffreyessay
+    - choireyes
+    - matureyes
+    - helicoptereyes
+    - inquireyes
+    - fightereyes
+    - longereyes
+    - producereyes
+    - aireyes
+    - wereyes
+    - triggereyes
+    - checkereyes
+    - transfereyes
+    - pictureyes
+    - portereyes
+    - centreyes
+    - pereyes
+    - fireyes
+    - greyespn
+    - copiereyes
+    - couriereyes
+    - fibreyes
+    - smartereyes
+    - lockereyes
+    - employereyes
+    - laughtereyes
+    - badgereyes
+    - huntereyes
+    - timbereyes
+    - zephyreyes
+    - earliereyes
+    - springereyes
+    - safereyes
+    - greyessential
+    - debuggereyes
+    - monstereyes
+    - temperatureyes
+    - travellereyes
+    - notreyes
+    - figureyes
+    - greyessay
+    - rostereyes
+    - cfreyes
+    - acreyes
+    - innereyes
+    - greyest
+    - jeffreyessence
+    - latereyes
+    - streyes
+    - you'reyes
+    - jeffreyest
+    - boilereyes
+    - biggereyes
+    - makereyes
+    - reducereyes
+    - expenditureyes
+    - markereyes
+    - cleanereyes
+    - carriereyes
+    - quietereyes
+    - oreyes
+    - smallereyes
+    - metereyes
+    - deereyes
+    - legislatureyes
+    - tireyes
+    - natureyes
+    - empireyes
+    - tonereyes
+    - hireyes
+    - sculptureyes
+    - cireyes
+    - futureyes
+    - jeffreyespn
+    - flickreyes
+    - cancereyes
+    - countereyes
+    - trackereyes
+    - greyessex
+    - shortereyes
+    - tortureyes
+    - embereyes
+    - ddreyes
+    - dealereyes
+    - peereyes
+    - analyzereyes
+    - sellereyes
+    - differeyes
+    - wireyes
+    - manufacturereyes
+    - careereyes
+    - brokereyes
+    - beereyes
+    - pokereyes
+    - registereyes
+    - flyereyes
+    - departureyes
+    - featureyes
+    - manufactureyes
+    - convertereyes
+    - organizereyes
+    - numbereyes
+    - bannereyes
+    - soldiereyes
+    - postereyes
+    - acquireyes
+    - surreyespn
+    - mixereyes
+    - suppliereyes
+    - hungereyes
+    - travelereyes
+    - practitionereyes
+    - singereyes
+    - genreyes
+    - butlereyes
+    - jeffreyessex
+    - lightereyes
+    - architectureyes
+    - mereyes
+    - greyescape
+    - filtereyes
+    - sereyes
+    - suffereyes
+    - jeffreyescort
+    - greyescort
+    - aftereyes
+    - buyereyes
+    - chargereyes
+    - semestereyes
+    - rollereyes
+    - requireyes
+    - chartereyes
+    - preyes
+    - damagereyes
+    - subscribereyes
+    - surreyest
+    - chestereyes
+    - outereyes
+    - surreyespecially
+    - beckereyes
+    - compilereyes
+    - nigereyes
+    - watereyes
+    - integereyes
+    - trainereyes
+    - workereyes
+    - adaptereyes
+    - coolereyes
+    - mattereyes
+    - tunereyes
+    - pioneereyes
+    - updatereyes
+    - schedulereyes
+    - brightereyes
+    - commissionereyes
+    - managereyes
+    - thrillereyes
+    - daughtereyes
+- tcherepa:
+    accept_any_case:
+    - matcherepa
+    - hatcherepa
+- msmirnov
+- bsboren
+- camackay
+- rkhandel
+- novoselova
+- muztoba

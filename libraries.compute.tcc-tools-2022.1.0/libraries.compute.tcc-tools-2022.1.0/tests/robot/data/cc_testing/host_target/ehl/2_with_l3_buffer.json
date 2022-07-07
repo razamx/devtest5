@@ -1,0 +1,63 @@
+{
+    "rtct": [
+        {
+            "Level": 3,
+            "Cache_ID": 0,
+            "Base": 0,
+            "Size": 262144,
+            "Shared": 0,
+            "Type": "common.rtct.v2.rtct.SoftwareSRAM"
+        },
+        {
+            "Level": 3,
+            "Cache_ID": 0,
+            "WayMask": 32768,
+            "Type": "common.rtct.v2.rtct.SSRAM_WayMask"
+        },
+        {
+            "Level": 3,
+            "Cache_ID": 0,
+            "WayMask": [
+                32752,
+                32752,
+                32752,
+                32752
+            ],
+            "Type": "common.rtct.v2.rtct.GT_WayMasks"
+        },
+        {
+            "Level": 2,
+            "Cache_ID": 0,
+            "WayMask": [
+                4095,
+                4095,
+                4095,
+                4095,
+                4095,
+                4095,
+                4095,
+                4095,
+                4095,
+                4095,
+                4095,
+                4095,
+                4095,
+                4095,
+                4095,
+                4095
+            ],
+            "Type": "common.rtct.v2.rtct.IA_WayMasks"
+        },
+        {
+            "Level": 3,
+            "Cache_ID": 0,
+            "WayMask": [
+                32752,
+                3,
+                12,
+                32752
+            ],
+            "Type": "common.rtct.v2.rtct.IA_WayMasks"
+        }
+    ]
+}

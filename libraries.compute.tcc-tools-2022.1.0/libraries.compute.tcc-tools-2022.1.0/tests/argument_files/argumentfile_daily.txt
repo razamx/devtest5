@@ -1,0 +1,4 @@
+--include allOR${LOWER_PLATFORM_NAME}
+--exclude no_daily
+--outputdir robot_result
+--loglevel TRACE

@@ -1,0 +1,31 @@
+{$programName}
+IPLDT {$programVersion}. Copyright (C) 2016 Intel Corporation.
+Intel Confidential
+
+1. Scan Properties
+  Command-line Options: {$launchParameters}
+  String File Version: {$stringFileVersion}
+  Scan Completed: {$scanCompleted}
+{% if highExposureFound == "yes" %}
+!!!High Exposure hits found. Review Carefully!!!{% endif %}
+{% if hitCounts.hitCountsList %}
+2. Scan Summary
+Hit     Category        Section     Times Encountered
+-------------------------------------------------------------------------------------------------
+{% for hitCount in hitCounts.hitCountsList %}{$hitCount.hit}     {$hitCount.category}        {$hitCount.section}     {$hitCount.count}
+{% endfor %}
+
+3. Scan Details{% for hitInstance in hitDetails.hitInstanceList %}
+{$hitInstance.name} ("{$hitInstance.section}")
+{$hitInstance.guidance}-------------------------------------------------------------------------------------------------
+{% for hitContext in hitInstance.hitContextList %}
+{$hitContext.file}
+-------------------------------------------------------------------------------------------------{% for context in hitContext.contexts %}
+{% if context.count != "1" %}({$context.count}){% endif %}{% if context.lines %}[{% for line in context.lines %}{$line}, {% endfor %}]{% endif %}{$context.before}{% for hitAndAfter in context.hitsAndAfter %}<!>{$hitAndAfter.hit}<!>{$hitAndAfter.after}{% endfor %}{% endfor %}
+{% endfor %}
+{% endfor %}
+{% endif %}
+{% if not hitCounts.hitCountsList %}
+2. Scan Results
+No problems detected in the input files.
+{% endif %}

@@ -1,0 +1,66 @@
+/**
+    \example common/include/time_convert.h
+    \example common/src/time_convert.c
+    \example common/include/pointer_chasing.h
+    \example common/src/pointer_chasing.c
+*/
+
+/**
+    \example tcc_cache_allocation_sample/src/main.c
+*/
+
+/**
+ * @example tcc_ethernet_timestamps_sample/src/main.c
+ * Demonstrates hardware features that can improve time sync quality
+ * between the system clock and a Precision Time Protocol Hardware Clock
+ */
+
+/**
+    \example tcc_measurement_analysis_sample/src/tcc_measurement_analysis_sample.py
+    \example tcc_measurement_analysis_sample/src/modules/tcc_measurement_analysis_hist.py
+    \example tcc_measurement_analysis_sample/src/modules/tcc_measurement_analysis_monitor.py
+    \example tcc_measurement_analysis_sample/src/modules/tcc_measurement_analysis_utils.py
+*/
+
+/**
+    \example tcc_measurement_monitoring_sample/src/main.c
+*/
+
+/**
+ * @example tcc_rt_communication_demo/src/opcua_pubsub_server/multicallback_server.c
+ * Implements OPC UA* Publish/Subscribe communication over TSN with Intel® Time Coordinated Computing Tools (Intel® TCC Tools) cache allocation support
+ */
+
+/**
+ * @example tcc_rt_communication_demo/src/data_mgr/talker.c
+ * Emulates publishing test data to a shared memory device
+ */
+
+/**
+ * @example tcc_rt_communication_demo/src/data_mgr/listener.c
+ * Listens to test data in a shared memory device
+ */
+
+/**
+ * @example tcc_rt_communication_demo/src/data_mgr/compute.c
+ * Implements handling incoming test data and produces output test data in shared memory devices
+ */
+
+/**
+ * @example tcc_tgpio_samples/tcc_tgpio_advanced_sample/src/main.c
+ * @example tcc_tgpio_samples/tcc_tgpio_advanced_sample/src/tgpio_sample.h
+ * Advanced output signal generation on TGPIO and/or software pins typically used with the plotting tools
+ */
+
+/**
+ * @example tcc_tgpio_samples/tcc_tgpio_basic_samples/src/tgpio_basic_input.c
+ * @example tcc_tgpio_samples/tcc_tgpio_basic_samples/src/tgpio_basic_oneshot_output.c
+ * @example tcc_tgpio_samples/tcc_tgpio_basic_samples/src/tgpio_basic_periodic_output.c
+ * @example tcc_tgpio_samples/tcc_tgpio_basic_samples/src/tgpio_info.c
+ * Code samples to display platform TGPIO capabilities and perform basic input/output
+ */
+
+/**
+ * @example tcc_tgpio_samples/tcc_tgpio_frequency_discipline_sample/src/main.c
+ * Matches a custom user-entered period with a PID controller-based generated signal as closely as possible
+ */

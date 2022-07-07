@@ -1,0 +1,106 @@
+{
+    "rtct": [
+        {
+            "int_way_mask": [
+                2016,
+                2016,
+                2016,
+                2016
+            ],
+            "Type": "common.rtct.v1.rtct.GT_L3WayMasks"
+        },
+        {
+            "int_way_mask": [
+                1
+            ],
+            "Type": "common.rtct.v1.rtct.WRC_L3WayMasks"
+        },
+        {
+            "int_cache_level": 3,
+            "int_base": 1074266112,
+            "int_ways": 2048,
+            "int_size": 1048576,
+            "int_APIC_ID": [
+                0,
+                2,
+                4,
+                6
+            ],
+            "Type": "common.rtct.v1.rtct.PseudoSRAM"
+        },
+        {
+            "int_cache_level": 2,
+            "int_base": 1074266112,
+            "int_ways": 983040,
+            "int_size": 262144,
+            "int_APIC_ID": [
+                4
+            ],
+            "Type": "common.rtct.v1.rtct.PseudoSRAM"
+        },
+        {
+            "int_cache_level": 2,
+            "int_base": 1074528256,
+            "int_ways": 983040,
+            "int_size": 262144,
+            "int_APIC_ID": [
+                6
+            ],
+            "Type": "common.rtct.v1.rtct.PseudoSRAM"
+        },
+        {
+            "int_way_mask": [
+                [
+                    1048575,
+                    1048575,
+                    1048575,
+                    1048575,
+                    1048575,
+                    1048575,
+                    1048575,
+                    1048575
+                ],
+                [
+                    1048575,
+                    1048575,
+                    1048575,
+                    1048575,
+                    1048575,
+                    1048575,
+                    1048575,
+                    1048575
+                ],
+                [
+                    65535,
+                    65535,
+                    65535,
+                    65535,
+                    65535,
+                    65535,
+                    65535,
+                    65535
+                ],
+                [
+                    65535,
+                    65535,
+                    65535,
+                    65535,
+                    65535,
+                    65535,
+                    65535,
+                    65535
+                ]
+            ],
+            "Type": "common.rtct.v1.rtct.CAT_L2WayMasks"
+        },
+        {
+            "int_way_mask": [
+                2016,
+                6,
+                24,
+                2016
+            ],
+            "Type": "common.rtct.v1.rtct.CAT_L3WayMasks"
+        }
+    ]
+}

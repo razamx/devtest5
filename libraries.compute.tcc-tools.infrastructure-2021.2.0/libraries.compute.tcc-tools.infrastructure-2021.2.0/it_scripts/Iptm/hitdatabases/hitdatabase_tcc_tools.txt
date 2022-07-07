@@ -1,0 +1,334 @@
+INTEL CONFIDENTIAL
+# v1.00
+-------------------------------------------------------------------------------------------------
+
+[X] 2 in 1 ("tm_all")
+-------------------------------------------------------------------------------------------------
+ [ ] "r.*\/sources\/src\/measurement\/src\/tcc_measurement\.c"
+  [ ]     [279]"easurement;..    // 2 in 1: trim whitespaces a"
+-------------------------------------------------------------------------------------------------
+
+[X] 21 e1 ("tm_all")
+-------------------------------------------------------------------------------------------------
+ [ ] "r.*\/tools\/demo\/workloads\/src\/rtcp_workload\/rtcp\/README\.md"
+  [ ]     [29]"2.Port 0 MAC: 00 1b 21 e1 cb 91.Buff in Bytes"
+-------------------------------------------------------------------------------------------------
+
+[X] atom ("tm_all")
+-------------------------------------------------------------------------------------------------
+ [ ] "r.*\/documentation\/api\/legal_information\.html"
+  [ ]     [117]"e.</p>.<p>For Intel Atom\r x6000E Series pro"
+  [ ]     [111]"tel logo, and Intel Atom are trademarks of I"
+ [ ] "r.*\/target\/tcc_setup\.md"
+  [ ]     [27]" supported by Intel Atom\r x6000E Series pro"
+ [ ] "r.*\/tools\/cache_configurator\/modules\/model\/presets\/presets\.py"
+  [ ]     [40]"et presets for EHL, Atom 2 core, 2 Mb L3, 1,"
+  [ ]     [37]"et presets for EHL, Atom 4 core, 4 Mb L3, 1."
+ [ ] "r.*\/tools\/common\/supported_cpus\.py"
+  [ ]     [66]"o(.        "Intel\r Atom\r Processor x6200FE"
+  [ ]     [54]"o(.        "Intel\r Atom\r Processor x6212RE"
+  [ ]     [57]"o(.        "Intel\r Atom\r Processor x6414RE"
+  [ ]     [60]"o(.        "Intel\r Atom\r Processor x6425RE"
+  [ ]     [63]"o(.        "Intel\r Atom\r Processor x6427FE"
+-------------------------------------------------------------------------------------------------
+
+[X] ats ("ip_keywords")
+-------------------------------------------------------------------------------------------------
+ [ ] "r.*\/tools\/demo\/workloads\/bin\/rtcp"
+  [ ]     "....0....7~...#7..f.ATS@...H...@..?w1Hc.I.."
+ [ ] "r.*\/tools\/demo\/workloads\/src\/rtcp_workload\/rtcp\/rtcp"
+  [ ]     "....0....7~...#7..f.ATS@...H...@..?w1Hc.I.."
+-------------------------------------------------------------------------------------------------
+
+[X] authorized intel distributor ("tm_all")
+-------------------------------------------------------------------------------------------------
+ [ ] "r.*\/licensing\/license\.txt"
+  [ ]     [103]"l directly or by an authorized Intel distributor. You.   understand "
+-------------------------------------------------------------------------------------------------
+
+[X] core\t ("tm_all")
+-------------------------------------------------------------------------------------------------
+ [ ] "r.*\/tools\/cache_configurator\/modules\/model\/presets\/presets\.py"
+  [ ]     [43]"et presets for TGL, Core\t i3, 2 core, 6 Mb L3"
+  [ ]     [46]"et presets for TGL, Core\t i5, 4 core, 8 Mb L3"
+  [ ]     [49]"et presets for TGL, Core\t i7, 4 core, 12 Mb L"
+ [ ] "r.*\/tools\/common\/supported_cpus\.py"
+  [ ]     [69]"  "11th Gen Intel\r Core\t i3-1115GRE", TGL_PL"
+  [ ]     [72]"  "11th Gen Intel\r Core\t i5-1145GRE", TGL_PL"
+  [ ]     [75]"  "11th Gen Intel\r Core\t i7-1185GRE", TGL_PL"
+ [ ] "r.*\/tools\/rt_checker\/README\.md"
+  [ ]     [32]" : 11th Gen Intel\r Core\t i7-1185GRE @ 2.80GH"
+-------------------------------------------------------------------------------------------------
+
+[X] instrumentation and tracing ("tm_all")
+-------------------------------------------------------------------------------------------------
+ [ ] "r.*\/include\/tcc\/measurement\.h"
+  [ ]     [105]"ement identified by Instrumentation and Tracing. * Technology API ("
+ [ ] "r.*\/sources\/include\/tcc\/measurement\.h"
+  [ ]     [105]"ement identified by Instrumentation and Tracing. * Technology API ("
+-------------------------------------------------------------------------------------------------
+
+[X] intel confidential ("ip_class")
+-------------------------------------------------------------------------------------------------
+ [ ] "r.*\/documentation\/api\/legal_information\.html"
+  [ ]     [104]"s="textblock"><p><b>INTEL CONFIDENTIAL</b></p>.<p>You may "
+-------------------------------------------------------------------------------------------------
+
+[X] intel oneapi ("tm_all")
+-------------------------------------------------------------------------------------------------
+ [ ] "r.*\/licensing\/license\.txt"
+  [ ]     [504]"and version (e.g., "Intel oneAPI End User License.  "
+-------------------------------------------------------------------------------------------------
+
+[X] intel\r ("tm_all")
+-------------------------------------------------------------------------------------------------
+ [ ] "r.*\/documentation\/api\/index\.html"
+  [ ]     [104]" and access certain Intel\r TCC hardware featur"
+ [ ] "r.*\/include\/tcc\/cache\.h"
+  [ ]     [14]"e cache.h. * @brief Intel\r TCC Tools cache all"
+ [ ] "r.*\/include\/tcc\/err_code\.h"
+  [ ]     [14]"rr_code.h. * @brief Intel\r TCC Tools error cod"
+ [ ] "r.*\/include\/tcc\/measurement\.h"
+  [ ]     [14]"urement.h. * @brief Intel\r TCC Tools measureme"
+ [ ] "r.*\/include\/tcc\/measurement_helpers\.h"
+  [ ]     [31]"helpers.h. * @brief Intel\r TCC Tools measureme"
+ [ ] "r.*\/licensing\/third-party-programs\.txt"
+  [ ]     [1]".............S......Intel\r TCC (Time Coordinat"
+  [ ]     [1]"Intel\r TCC (Time Coordinat"
+  [ ]     [1]"n a.. .......S......Intel\r TCC (Time Coordinat"
+ [ ] "r.*\/samples\/common\/include\/pointer_chasing\.h"
+  [ ]     [13]"chasing.h. * @brief Intel\r TCC Tools pointer-c"
+ [ ] "r.*\/scripts\/install_host_dependencies\.sh"
+  [ ]     [13]"encies required for Intel\r TCC Tools developme"
+ [ ] "r.*\/sources\/include\/tcc\/cache\.h"
+  [ ]     [14]"e cache.h. * @brief Intel\r TCC Tools cache all"
+ [ ] "r.*\/sources\/include\/tcc\/err_code\.h"
+  [ ]     [14]"rr_code.h. * @brief Intel\r TCC Tools error cod"
+ [ ] "r.*\/sources\/include\/tcc\/measurement\.h"
+  [ ]     [14]"urement.h. * @brief Intel\r TCC Tools measureme"
+ [ ] "r.*\/sources\/include\/tcc\/measurement_helpers\.h"
+  [ ]     [31]"helpers.h. * @brief Intel\r TCC Tools measureme"
+ [ ] "r.*\/sources\/src\/measurement\/include\/measurement\.h"
+  [ ]     [14]"urement.h. * @brief Intel\r TCC Tools measureme"
+ [ ] "r.*\/sources\/tools\/rt_checker\/checkers\/src\/htt\.c"
+  [ ]     [37]" " \.    "Computing/Intel\r TCC Mode: <Enabled>"
+  [ ]     [36]"Intel Advanced Menu/Intel\r Time Coordinated " "
+  [ ]     [29]"NOT_RT_READY \.    "Intel\r Hyperthreading Tech"
+  [ ]     [33]"fine NOTE_RT_READY "Intel\r Hyperthreading Tech"
+ [ ] "r.*\/sources\/tools\/rt_checker\/include\/rt_checker\.h"
+  [ ]     [14]"h. * @brief Defines Intel\r TCC Tools RT Checke"
+ [ ] "r.*\/target\/tcc_setup\.md"
+  [ ]     [3]" file describes the Intel\r TCC Tools install/u"
+  [ ]     [10]" option..## Install Intel\r TCC Tools..The scri"
+  [ ]     [12]" script can install Intel\r TCC Tools software "
+  [ ]     [49]"pt verifies whether Intel\r TCC Tools software "
+  [ ]     [58]"tion...## Uninstall Intel\r TCC Tools..The scri"
+ [ ] "r.*\/target\/tcc_setup\.py"
+  [ ]     [285]"       question = ("Intel\r TCC Tools are alrea"
+  [ ]     [452]"=str, help="Install Intel\r TCC Tools").    ins"
+  [ ]     [453]"l', help="Uninstall Intel\r TCC Tools", action="
+  [ ]     [450]"o install/uninstall Intel\r TCC Tools software "
+ [ ] "r.*\/tools\/README\.md"
+  [ ]     [1]"# Intel\r TCC Tools..This fol"
+ [ ] "r.*\/tools\/cache_configurator\/modules\/view\/ui\.py"
+  [ ]     [71]""parameters see the Intel\r TCC Tools Developer"
+  [ ]     [266, 302]"er request. See the Intel\r TCC Developer Guide"
+ [ ] "r.*\/tools\/common\/supported_cpus\.py"
+  [ ]     [69]"(.        "11th Gen Intel\r Core\t i3-1115GRE","
+  [ ]     [72]"(.        "11th Gen Intel\r Core\t i5-1145GRE","
+  [ ]     [75]"(.        "11th Gen Intel\r Core\t i7-1185GRE","
+  [ ]     [54, 57, 60, 63, 66]"rtCpuInfo(.        "Intel\r Atom\r Processor x6"
+ [ ] "r.*\/tools\/rt_checker\/README\.md"
+  [ ]     [47]" CPU model supports Intel\r TCC Tools. You can "
+  [ ]     [117]"##################..Intel\r TCC Tools Checkers."
+  [ ]     [26]"cessor supports the Intel\r TCC Tools......PROC"
+  [ ]     [50]"he documentation....Intel\r TCC Tools Checkers."
+  [ ]     [32]"l        : 11th Gen Intel\r Core\t i7-1185GRE @"
+ [ ] "r.*\/tools\/rt_checker\/modules\/cpu_info_printer\.py"
+  [ ]     [55]" CPU model supports Intel\r TCC Tools. You can "
+-------------------------------------------------------------------------------------------------
+
+[X] io_trans ("bdw-de[private], bdw[private], bdx[private], hsw[private], hsx[private], jkt[private], snb[private]")
+-------------------------------------------------------------------------------------------------
+ [ ] "r.*\/tools\/demo\/workloads\/bin\/pglm"
+  [ ]     "N_GPIO_STAT.GLGEN_GPIO_TRANSIT.GLGEN_GPIO_SET.EM"
+ [ ] "r.*\/tools\/demo\/workloads\/bin\/rtcp"
+  [ ]     "N_GPIO_STAT.GLGEN_GPIO_TRANSIT.GLGEN_GPIO_SET.EM"
+ [ ] "r.*\/tools\/demo\/workloads\/src\/rtcp_workload\/pglm\/pglm"
+  [ ]     "N_GPIO_STAT.GLGEN_GPIO_TRANSIT.GLGEN_GPIO_SET.EM"
+ [ ] "r.*\/tools\/demo\/workloads\/src\/rtcp_workload\/rtcp\/rtcp"
+  [ ]     "N_GPIO_STAT.GLGEN_GPIO_TRANSIT.GLGEN_GPIO_SET.EM"
+-------------------------------------------------------------------------------------------------
+
+[X] itt api ("tm_all")
+-------------------------------------------------------------------------------------------------
+ [ ] "r.*\/documentation\/api\/measurement_8h\.html"
+  [ ]     [225]"(ITT) APIs. Use the ITT API __itt_task_begin() "
+ [ ] "r.*\/include\/tcc\/measurement\.h"
+  [ ]     [106]". * Technology API (ITT API) domain and task na"
+ [ ] "r.*\/sources\/include\/tcc\/measurement\.h"
+  [ ]     [106]". * Technology API (ITT API) domain and task na"
+-------------------------------------------------------------------------------------------------
+
+[X] nda ("ip_nda")
+-------------------------------------------------------------------------------------------------
+ [ ] "r.*\/licensing\/license\.txt"
+  [ ]     [441]"    entered into an NDA with Intel, You mus"
+  [ ]     [425]"closure agreement ("NDA"); please contact Y"
+  [ ]     [489]"ffect on any signed NDA between.     the pa"
+  [ ]     [426]"o ensure the proper NDA is in place...    N"
+  [ ]     [440]"s of the applicable NDA between Intel and Y"
+-------------------------------------------------------------------------------------------------
+
+[X] speedstep ("tm_all")
+-------------------------------------------------------------------------------------------------
+ [ ] "r.*\/sources\/tools\/rt_checker\/checkers\/src\/speed\.c"
+  [ ]     [85]";..            enum speedsteptech_check_state res"
+  [ ]     [48]"ROR.};..static enum speedsteptech_check_state che"
+  [ ]     [70]"ct CheckerResult is_speedsteptech_disabled(void)."
+  [ ]     [48]"h_check_state check_speedsteptech_enabled(void).{"
+  [ ]     [85]"k_state res = check_speedsteptech_enabled();.    "
+  [ ]     [42]"re required."..enum speedsteptech_check_state {. "
+  [ ]     [118]"wer Management", is_speedsteptech_disabled)."
+-------------------------------------------------------------------------------------------------
+
+[X] tcc tools ("tm_all")
+-------------------------------------------------------------------------------------------------
+ [ ] "r.*\/include\/tcc\/cache\.h"
+  [ ]     [14]"h. * @brief Intel\r TCC Tools cache allocation li"
+ [ ] "r.*\/include\/tcc\/err_code\.h"
+  [ ]     [14]"h. * @brief Intel\r TCC Tools error code enum. */"
+ [ ] "r.*\/include\/tcc\/measurement\.h"
+  [ ]     [14]"h. * @brief Intel\r TCC Tools measurement library"
+ [ ] "r.*\/include\/tcc\/measurement_helpers\.h"
+  [ ]     [31]"h. * @brief Intel\r TCC Tools measurement library"
+ [ ] "r.*\/samples\/common\/include\/pointer_chasing\.h"
+  [ ]     [13]"h. * @brief Intel\r TCC Tools pointer-chase workl"
+ [ ] "r.*\/scripts\/install_host_dependencies\.sh"
+  [ ]     [13]"equired for Intel\r TCC Tools development and hos"
+ [ ] "r.*\/sources\/include\/tcc\/cache\.h"
+  [ ]     [14]"h. * @brief Intel\r TCC Tools cache allocation li"
+ [ ] "r.*\/sources\/include\/tcc\/err_code\.h"
+  [ ]     [14]"h. * @brief Intel\r TCC Tools error code enum. */"
+ [ ] "r.*\/sources\/include\/tcc\/measurement\.h"
+  [ ]     [14]"h. * @brief Intel\r TCC Tools measurement library"
+ [ ] "r.*\/sources\/include\/tcc\/measurement_helpers\.h"
+  [ ]     [31]"h. * @brief Intel\r TCC Tools measurement library"
+ [ ] "r.*\/sources\/src\/measurement\/include\/measurement\.h"
+  [ ]     [14]"h. * @brief Intel\r TCC Tools measurement library"
+ [ ] "r.*\/sources\/tools\/rt_checker\/include\/rt_checker\.h"
+  [ ]     [14]"ief Defines Intel\r TCC Tools RT Checker API. */."
+ [ ] "r.*\/target\/tcc_setup\.md"
+  [ ]     [58]"# Uninstall Intel\r TCC Tools..The script can uni"
+  [ ]     [10]".## Install Intel\r TCC Tools..The script can ins"
+  [ ]     [12]"can install Intel\r TCC Tools software on the tar"
+  [ ]     [49]"ies whether Intel\r TCC Tools software is already"
+  [ ]     [3]"scribes the Intel\r TCC Tools install/uninstall s"
+ [ ] "r.*\/target\/tcc_setup\.py"
+  [ ]     [453]"="Uninstall Intel\r TCC Tools", action='store_tru"
+  [ ]     [450]"l/uninstall Intel\r TCC Tools software on the tar"
+  [ ]     [452]"lp="Install Intel\r TCC Tools").    install_group"
+  [ ]     [285]"uestion = ("Intel\r TCC Tools are already install"
+ [ ] "r.*\/tools\/README\.md"
+  [ ]     [1]"# Intel\r TCC Tools..This folder contai"
+ [ ] "r.*\/tools\/cache_configurator\/modules\/view\/ui\.py"
+  [ ]     [71]"ers see the Intel\r TCC Tools Developer Guide\n\n"
+ [ ] "r.*\/tools\/rt_checker\/README\.md"
+  [ ]     [117]"##########..Intel\r TCC Tools Checkers.....######"
+  [ ]     [47]"el supports Intel\r TCC Tools. You can find a com"
+  [ ]     [50]"entation....Intel\r TCC Tools Checkers.....Checki"
+  [ ]     [26]"upports the Intel\r TCC Tools......PROCESSOR CHEC"
+ [ ] "r.*\/tools\/rt_checker\/modules\/cpu_info_printer\.py"
+  [ ]     [55]"el supports Intel\r TCC Tools. You can find a com"
+-------------------------------------------------------------------------------------------------
+
+[X] time coordinated computing ("tm_all")
+-------------------------------------------------------------------------------------------------
+ [ ] "r.*\/licensing\/third-party-programs\.txt"
+  [ ]     [1]"Intel\r TCC (Time Coordinated Computing) Third Party Progra"
+-------------------------------------------------------------------------------------------------
+
+[X] tsc ("tm_all")
+-------------------------------------------------------------------------------------------------
+ [ ] "r.*\/documentation\/api\/measurement_8h\.html"
+  [ ]     [229]" timestamp counter (TSC) to collect the sta"
+  [ ]     [180, 307]" timestamp counter (TSC) value to struct ti"
+  [ ]     [186, 373]" timestamp counter (TSC) value to the given"
+  [ ]     [183, 189]" timestamp counter (TSC) value.  <a href="m"
+  [ ]     [336, 415]" timestamp counter (TSC) value. </p>.<dl cl"
+  [ ]     [229]"d function uses the TSC to collect the end "
+ [ ] "r.*\/documentation\/api\/measurement_8h_source\.html"
+  [ ]     [183]" Timestamp counter (TSC) conversion */</spa"
+  [ ]     [351]" timestamp counter (TSC) value to struct ti"
+  [ ]     [336]" timestamp counter (TSC) value to the given"
+  [ ]     [323, 352]" timestamp counter (TSC) value.</div></div>"
+ [ ] "r.*\/documentation\/api\/structtcc__measurement\.html"
+  [ ]     [196]" Timestamp Counter (TSC) of a measured bloc"
+ [ ] "r.*\/documentation\/api\/tcc_cache_allocation_sample_2src_2main_8c-example\.html"
+  [ ]     [543]" timestamp counter (TSC) value to struct ti"
+ [ ] "r.*\/documentation\/api\/tcc_measurement_monitoring_sample_2src_2main_8c-example\.html"
+  [ ]     [263]" timestamp counter (TSC) value to the given"
+  [ ]     [257]" timestamp counter (TSC) value.</div></div>"
+ [ ] "r.*\/documentation\/api\/tcc_tgpio_samples_2tcc_tgpio_basic_samples_2src_2tgpio_basic_input_8c-example\.html"
+  [ ]     [229]"ing to read ART and TSC clocks simultaneous"
+ [ ] "r.*\/documentation\/api\/tcc_tgpio_samples_2tcc_tgpio_basic_samples_2src_2tgpio_basic_periodic_output_8c-example\.html"
+  [ ]     [203]"imultaneous ART and TSC timestamps*/</span>"
+  [ ]     [197]"ing to read ART and TSC clocks</span></div>"
+  [ ]     [202]"ion between ART and TSC clocks.</span></div"
+ [ ] "r.*\/include\/tcc\/measurement\.h"
+  [ ]     [116]" Timestamp Counter (TSC) of a measured bloc"
+  [ ]     [154]" Timestamp counter (TSC) conversion */../**"
+  [ ]     [41]" timestamp counter (TSC) to collect the sta"
+  [ ]     [157]" timestamp counter (TSC) value to struct ti"
+  [ ]     [173]" timestamp counter (TSC) value to the given"
+  [ ]     [165, 183]" timestamp counter (TSC) value.. *. * @para"
+  [ ]     [42]"d function uses the TSC to collect the end "
+ [ ] "r.*\/samples\/tcc_single_measurement_sample\/src\/main\.c"
+  [ ]     [103]" timestamp counter (TSC) */.        __itt_t"
+  [ ]     [110]"d time based on the TSC and calculates the "
+ [ ] "r.*\/samples\/tcc_tgpio_samples\/tcc_tgpio_basic_samples\/src\/tgpio_basic_input\.c"
+  [ ]     [126]"ing to read ART and TSC clocks simultaneous"
+ [ ] "r.*\/samples\/tcc_tgpio_samples\/tcc_tgpio_basic_samples\/src\/tgpio_basic_periodic_output\.c"
+  [ ]     [100]"imultaneous ART and TSC timestamps*/.    io"
+  [ ]     [94]"ing to read ART and TSC clocks.    simultan"
+  [ ]     [99]"ion between ART and TSC clocks..       Use "
+ [ ] "r.*\/sources\/include\/tcc\/measurement\.h"
+  [ ]     [116]" Timestamp Counter (TSC) of a measured bloc"
+  [ ]     [154]" Timestamp counter (TSC) conversion */../**"
+  [ ]     [41]" timestamp counter (TSC) to collect the sta"
+  [ ]     [157]" timestamp counter (TSC) value to struct ti"
+  [ ]     [173]" timestamp counter (TSC) value to the given"
+  [ ]     [165, 183]" timestamp counter (TSC) value.. *. * @para"
+  [ ]     [42]"d function uses the TSC to collect the end "
+ [ ] "r.*\/sources\/src\/measurement\/include\/measurement\.h"
+  [ ]     [116]" TSC.. *. * @return TSC value. */.static __"
+  [ ]     [111]" Timestamp Counter (TSC) value for the end "
+  [ ]     [68]" Timestamp Counter (TSC) value for the star"
+  [ ]     [177]" Timestamp Counter (TSC) value. This is use"
+  [ ]     [143, 170, 192]" timestamp counter (TSC) and puts the value"
+  [ ]     [36]" timestamp counter (TSC) to collect the sta"
+  [ ]     [36]"d function uses the TSC to collect. * the e"
+  [ ]     [178]"one. *        start TSC reading for multipl"
+  [ ]     [84]"ough.. *. * @return TSC value. */.static __"
+  [ ]     [184]"t;.    /* Store raw TSC difference in clk_l"
+  [ ]     [70]"tion before reading TSC.. * The function us"
+  [ ]     [114]"tire before reading TSC.. *. * @return TSC "
+ [ ] "r.*\/sources\/src\/measurement\/src\/tcc_measurement\.c"
+  [ ]     [899]"->cost);.    /* Use TSC difference divided "
+  [ ]     [682]"surement pointer to TSC profile structure. "
+ [ ] "r.*\/sources\/src\/measurement\/src\/tcc_measurement_itt\.c"
+  [ ]     [377]"2;.    /* Store raw TSC difference in clk_l"
+ [ ] "r.*\/tools\/cache_configurator\/modules\/model\/system_info\.py"
+  [ ]     [92]"""".        Convert TSC cycles to the nanos"
+  [ ]     [89]"('Failed to convert TSC cycles to the nanos"
+  [ ]     [96]"d to nanoseconds to TSC cycles: {}').    de"
+  [ ]     [99]"vert nanoseconds to TSC cycles (rounded).  "
+ [ ] "r.*\/tools\/cache_info_read\/modules\/reader\.py"
+  [ ]     [30]"led to read nominal tsc frequency: {}').def"
+  [ ]     [32]"ug('Reading nominal TSC freq').    regs = c"
+ [ ] "r.*\/tools\/demo\/workloads\/bin\/rtcp_validation_script\.py"
+  [ ]     [107]"pkt\.bin|pmc\d\.bin|tsc\.bin)', file):.    "
+ [ ] "r.*\/tools\/demo\/workloads\/src\/rtcp_workload\/rtcp_validation_script\.py"
+  [ ]     [107]"pkt\.bin|pmc\d\.bin|tsc\.bin)', file):.    "
+-------------------------------------------------------------------------------------------------
+

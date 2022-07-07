@@ -1,0 +1,92 @@
+{
+    "rtct": [
+        {
+            "Level": 3,
+            "Cache_ID": 0,
+            "WayMask": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "Type": "common.rtct.v2.rtct.GT_WayMasks"
+        },
+        {
+            "Level": 3,
+            "Cache_ID": 0,
+            "WayMask": 2,
+            "Type": "common.rtct.v2.rtct.WRC_WayMasks"
+        },
+        {
+            "Level": 2,
+            "Cache_ID": 0,
+            "WayMask": [
+                1048575,
+                1048575,
+                1048575,
+                1048575,
+                1048575,
+                1048575,
+                1048575,
+                1048575
+            ],
+            "Type": "common.rtct.v2.rtct.IA_WayMasks"
+        },
+        {
+            "Level": 2,
+            "Cache_ID": 1,
+            "WayMask": [
+                1048575,
+                1048575,
+                1048575,
+                1048575,
+                1048575,
+                1048575,
+                1048575,
+                1048575
+            ],
+            "Type": "common.rtct.v2.rtct.IA_WayMasks"
+        },
+        {
+            "Level": 2,
+            "Cache_ID": 2,
+            "WayMask": [
+                1048575,
+                1048575,
+                1048575,
+                1048575,
+                1048575,
+                1048575,
+                1048575,
+                1048575
+            ],
+            "Type": "common.rtct.v2.rtct.IA_WayMasks"
+        },
+        {
+            "Level": 2,
+            "Cache_ID": 3,
+            "WayMask": [
+                1048575,
+                1048575,
+                1048575,
+                1048575,
+                1048575,
+                1048575,
+                1048575,
+                1048575
+            ],
+            "Type": "common.rtct.v2.rtct.IA_WayMasks"
+        },
+        {
+            "Level": 3,
+            "Cache_ID": 0,
+            "WayMask": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "Type": "common.rtct.v2.rtct.IA_WayMasks"
+        }
+    ]
+}

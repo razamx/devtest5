@@ -1,0 +1,148 @@
+Checking the platform's current real-time configuration for maximum tolerable
+buffer access latency, buffer size, etc. For more information on these
+parameters see the Intel® TCC Tools Developer Guide
+
+At any time, you can press (Ctrl + C) to exit the application or press (U) to
+cancel current operation and return to the main screen
+********************************************************************************
+Here is the initial configuration you currently have on the system
+
+CURRENT BUFFERS ALLOCATED: 0
+Would you like to add (A) a cache allocation?
+
+Or would you like to change the way the configuration is partitioned? (P)
+
+Requested configuration is already applied.
+To accept the current configuration, enter (Ctrl + C) to exit the application.
+
+*************************** Add a cache allocation ****************************
+You will be asked a series of 4 questions to specify the type of buffer you
+want to add, then a summary of your requested configuration to confirm before
+it is applied.
+At any time you can press (U) to cancel current operation and return to the
+main menu
+********************************************************************************
+Do you want to specify for Latency (L) or Cache Level (C)?
+
+Please enter the desired cache level for this buffer either L2 (2) or L3 (3):
+
+Available cores are: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+Please enter the CPU core that your real-time application will use:
+
+Please enter the buffer size, in bytes: (estimated from 1 to 26216576 bytes):
+
+********************************************************************************
+The following buffer will be created:
+
+BUFFER 0
+LATENCY(ns):        65
+CACHE LEVEL:        3
+CPU CORE:           3
+BUFFER SIZE(bytes): 500000
+
+A reboot is required to complete the configuration. Confirm (Y) to proceed
+with this configuration. Enter (C) to continue configuring your total requested
+configuration (reboot will be required later). Enter (U) to cancel the current
+operation and return to the main menu.
+
+********************************************************************************
+Here is the Requested Configuration you currently have in progress.
+This Requested Configuration is not applied to the system yet.
+
+CURRENT BUFFERS CONFIGURED: 1
+NEW BUFFER 0
+LATENCY(ns):        65
+CACHE LEVEL:        3
+CPU CORE:           3
+BUFFER SIZE(bytes): 500000
+
+Would you like to add (A) or delete (D) a cache allocation?
+
+Or would you like to change the way the configuration is partitioned? (P)
+
+A reboot is required to complete the configuration. Confirm (Y) to proceed
+with this configuration.
+
+*************************** Add a cache allocation ****************************
+You will be asked a series of 4 questions to specify the type of buffer you
+want to add, then a summary of your requested configuration to confirm before
+it is applied.
+At any time you can press (U) to cancel current operation and return to the
+main menu
+********************************************************************************
+Do you want to specify for Latency (L) or Cache Level (C)?
+
+Please enter the desired cache level for this buffer L2 (2):
+
+Available cores are: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+Please enter the CPU core that your real-time application will use:
+
+Please enter the buffer size, in bytes: (estimated from 1 to 1179648 bytes):
+
+********************************************************************************
+The following buffer will be created:
+
+BUFFER 1
+LATENCY(ns):        8
+CACHE LEVEL:        2
+CPU CORE:           0
+BUFFER SIZE(bytes): 100000
+
+A reboot is required to complete the configuration. Confirm (Y) to proceed
+with this configuration. Enter (C) to continue configuring your total requested
+configuration (reboot will be required later). Enter (U) to cancel the current
+operation and return to the main menu.
+
+********************************************************************************
+Requested configuration:
+
+NEW BUFFER 0
+LATENCY(ns):        65
+CACHE LEVEL:        3
+CPU CORE:           3
+BUFFER SIZE(bytes): 500000
+
+NEW BUFFER 1
+LATENCY(ns):        8
+CACHE LEVEL:        2
+CPU CORE:           0
+BUFFER SIZE(bytes): 100000
+
+The REQUESTED CONFIGURATION could not be set exactly as specified.
+See below for the PROPOSED configuration that is closest to
+satisfying your buffer request. See the Intel® TCC Developer Guide for possible reasons
+why your request may have been altered: Common causes are needing to round up
+the buffer size or inclusiveness.
+
+Proposed configuration:
+
+NEW BUFFER 0
+LATENCY(ns):        65
+CACHE LEVEL:        3
+CPU CORE:           3
+BUFFER SIZE(bytes): 1048832
+
+NEW BUFFER 1
+LATENCY(ns):        8
+CACHE LEVEL:        2
+CPU CORE:           0
+BUFFER SIZE(bytes): 131072
+
+A reboot is required to complete the configuration. Confirm (Y) to proceed
+with this configuration. Enter (U) to cancel the current operation and return
+to the main menu.
+bash ./host_scripts/target_reboot.sh
+Waiting for reboot...
+
+Capsule(s) were generated.
+Applying capsule(s) for target...
+Capsule(s) were applied for target.
+Rebooting target machine...
+********************************************************************************
+Remote Machine is successfully rebooted.
+
+FAILURE: The configuration could not be set as requested. The currently applied configuration is:
+
+Do you want to use these settings (Y) or undo the request and return to the last successful configuration (U)?
+
+Enable RTCM on the target system before using the cache allocation library.

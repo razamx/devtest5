@@ -1,0 +1,98 @@
+Checking the platform's current real-time configuration for maximum tolerable
+buffer access latency, buffer size, etc. For more information on these
+parameters see the Intel® TCC Tools Developer Guide
+
+At any time, you can press (Ctrl + C) to exit the application or press (U) to
+cancel current operation and return to the main screen
+********************************************************************************
+Here is the initial configuration you currently have on the system
+
+CURRENT BUFFERS ALLOCATED: 0
+Would you like to add (A) a cache allocation?
+
+Or would you like to change the way the configuration is partitioned? (P)
+
+Requested configuration is already applied.
+To accept the current configuration, enter (Ctrl + C) to exit the application.
+
+****************************** Choose a preset ********************************
+Based on your current system settings, we recommend the following preset
+configurations which you can use as is or use as a template to edit from:
+At any time you can press (U) to cancel current operation and return to the
+main menu
+********************************************************************************
+1. Dedicated cache for 1 real-time workload on P-core, no software SRAM
+   shared cache for best-effort workloads on CPU + GPU
+   for remaining P-cores and E-cores
+
+
+2. Dedicated cache for 1 real-time workload on P-core, 1 x L3 software SRAM,
+   shared cache for best-effort workloads on CPU + GPU
+   for remaining P-cores and E-cores
+
+
+3. Dedicated cache for 2 real-time workloads on P-cores, 1 x L3 software SRAM,
+   shared cache for best-effort workloads on CPU + GPU
+   for remaining P-cores and E-cores
+
+
+4. Dedicated cache for 2 real-time workloads on P-cores, 1 x L3 software SRAM,
+   2 x L2 software SRAMs (P-Core 2 and P-Core 3),
+   shared cache for best-effort workloads on CPU + GPU
+   for remaining P-cores and E-cores
+
+
+5. Dedicated cache for 2 real-time workloads on P-cores, 1 x L3 software SRAM,
+   2 x L2 software SRAMs (P-Core 2 and P-Core 3),
+   dedicated but minimal GPU L3 cache,
+   shared cache for best-effort workloads on CPU for remaining P-cores and E-cores
+
+
+6. Dedicated cache for 1 real-time workload, 1 x L2 software SRAM on E-Core Module,
+   shared cache for best-effort workloads on CPU + GPU
+   for remaining P-core and E-cores
+
+
+7. Dedicated cache for 2 real-time workloads, 1 x L3 software SRAM (1 way),
+   1 x L2 software SRAM on P-Core 3, 1 x L2 software SRAM on E-Core Module,
+   dedicated but minimal GPU L3 cache,
+   shared cache for best-effort workloads on CPU
+   for remaining P-core and E-cores
+
+
+8. Edit the Current Configuration / do not use a preset template
+
+Which option would you like to select?
+********************************************************************************
+Applying a preset will overwrite your current configuration.
+A reboot is required to complete the configuration. Confirm (Y) to proceed
+with this configuration. Enter (C) to continue configuring your total requested
+configuration (reboot will be required later). Enter (U) to cancel the current
+operation and return to the main menu.
+
+********************************************************************************
+Requested Configuration:
+NEW BUFFER 0
+LATENCY(ns):        65
+CACHE LEVEL:        3
+CPU CORES:          [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+BUFFER SIZE(bytes): 1048832
+
+A reboot is required to complete the configuration. Confirm (Y) to proceed
+with this configuration. Enter (U) to cancel the current operation and return
+to the main menu.
+bash ./host_scripts/target_reboot.sh
+Waiting for reboot...
+
+Capsule(s) were generated.
+Applying capsule(s) for target...
+Capsule(s) were applied for target.
+Rebooting target machine...
+********************************************************************************
+Remote Machine is successfully rebooted.
+
+FAILURE: The configuration could not be set as requested. The currently applied configuration is:
+
+Do you want to use these settings (Y) or undo the request and return to the last successful configuration (U)?
+
+Enable RTCM on the target system before using the cache allocation library.
