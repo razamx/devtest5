@@ -1,3 +1,0 @@
---include allOR${LOWER_PLATFORM_NAME}
---outputdir robot_result
---loglevel TRACE

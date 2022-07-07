@@ -1,3 +1,0 @@
---include host
---outputdir robot_result
---loglevel TRACE

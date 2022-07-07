@@ -1,3 +1,0 @@
---include allANDbkcOR${LOWER_PLATFORM_NAME}ANDbkc
---outputdir robot_result
---loglevel TRACE

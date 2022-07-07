@@ -1,4 +1,0 @@
---include allOR${LOWER_PLATFORM_NAME}
---exclude no_pre_commit
---outputdir robot_result
---loglevel TRACE

@@ -1,4 +1,0 @@
---include allANDhost_targetOR${LOWER_PLATFORM_NAME}ANDhost_target
---exclude no_daily
---outputdir robot_result
---loglevel TRACE
