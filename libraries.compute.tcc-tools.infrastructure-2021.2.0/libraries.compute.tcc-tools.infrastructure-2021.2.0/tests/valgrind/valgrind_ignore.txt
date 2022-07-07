@@ -1,8 +1,0 @@
-/sbin/ldconfig -p
-/usr/bin/stress-ng -t 0 -C 10 --cache-level 2 --taskset 2 --aggressive -v --metrics-brief
-/bin/sh -c stress-ng\ -t\ 0\ -C\ 10\ --cache-level\ 2\ --taskset\ 2\ --aggressive\ -v\ --metrics-brief\ \>\ stress-ng.log2\>\ /dev/null
-/bin/sh -c stress-ng -t 0 -C 10 --cache-level 2 --taskset 2 --aggressive -v --metrics-brief > stress-ng.log2> /dev/null
-/bin/sh -c lspci\ |\ grep\ VGA
-/bin/sh -c lspci | grep VGA
-/bin/grep VGA
-/usr/bin/lspci
